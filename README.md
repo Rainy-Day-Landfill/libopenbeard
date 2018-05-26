@@ -25,6 +25,7 @@ or
 And then:
 
 ```cmake .```
+
 ```make```
 
 And you're good to go.  A copy of beardcalc will be in your working directory.
