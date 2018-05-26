@@ -7,9 +7,9 @@ void print_usage()
 {
     std::cout   << "beardcalc "
                 << "[ -h | --i-am-not-a-wizard ] "
-                << "[ -l | --beard-length ] "
-                << "[ -d | --beard-depth ] "
-                << "[ -f | --face-coverage ] "
+                << " -l | --beard-length "
+                << " -d | --beard-depth "
+                << " -f | --face-coverage "
                 << "[ --i-am-a-wizard ]"
                 << std::endl;
 }
