@@ -10,7 +10,7 @@ Use with care as these are strong forces you're dealing with.
 
 # build instructions
 
-Like all of my C++ tools, you must use CMAKE to install this.
+Like all of my C++ tools, you must use CMAKE to build this.
 
 ```apt-get install cmake```
 
