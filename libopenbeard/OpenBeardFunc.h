@@ -14,7 +14,7 @@
 class BeardDomamaru
 {
     public:
-        static int calc_followers( int depth, int length, int coverage, int * followers );
+        static int calc_followers( long depth, long length, long coverage, long * followers );
 };
 
 

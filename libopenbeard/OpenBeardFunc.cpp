@@ -4,10 +4,10 @@
 
 #include "OpenBeardFunc.h"
 
-int BeardDomamaru::calc_followers( int depth, int length, int coverage, int * followers )
+int BeardDomamaru::calc_followers( long depth, long length, long coverage, long * followers )
 {
     try {
-        * followers = int( pow( depth, length ) ) * int(  coverage );
+        * followers = long( pow( depth, length ) ) * coverage;
         return FUNC_SUCCESS;
     }
     catch ( const std::exception& e ) {

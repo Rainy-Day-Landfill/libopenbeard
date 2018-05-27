@@ -17,8 +17,8 @@ void print_usage()
 int main( int argc, char * argv[] )
 {
 
-    int depth, length= 0;
-    int coverage, followers = 0;
+    long  depth, length= 0;
+    long coverage, followers = 0;
 
     int flags, opt;
 
