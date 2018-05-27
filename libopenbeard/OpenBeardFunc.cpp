@@ -4,7 +4,7 @@
 
 #include "OpenBeardFunc.h"
 
-int BeardDomamaru::calc_followers( long depth, long length, long coverage, long * followers )
+int BeardDomamaru::calc_followers( long depth, long length, long coverage, unsigned long * followers )
 {
     try {
         * followers = long( pow( depth, length ) ) * coverage;

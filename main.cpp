@@ -18,7 +18,7 @@ int main( int argc, char * argv[] )
 {
 
     long  depth, length= 0;
-    long coverage, followers = 0;
+    unsigned long coverage, followers = 0;
 
     int flags, opt;
 
