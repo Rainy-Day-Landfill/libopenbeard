@@ -2,7 +2,7 @@
 
 This library calculates the ROI on beard length for social media platforms.  
 
-There is a sample tool bundled with it called "openbeard".
+There is a sample tool bundled with it called "beardcalc".
 
 Use with care as these are strong forces you're dealing with.
 
@@ -26,4 +26,6 @@ And then:
 
 ```cmake .```
 
-And you're good to go.  
+```make```
+
+And you're good to go.  A copy of beardcalc will be in your working directory.
